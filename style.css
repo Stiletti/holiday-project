@@ -1,3 +1,4 @@
+/* Basic Layout */
 html,
 body,
 * {
@@ -11,6 +12,7 @@ video {
   position: fixed;
 }
 
+/* Navigations */
 .top ul {
   display: flex;
   justify-content: space-between;
@@ -75,8 +77,9 @@ a:visited {
   text-decoration: none;
 }
 
-/* create floating animation */
+/* Banner */
 
+/* create floating animation */
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -90,12 +93,12 @@ a:visited {
 }
 
 .banner {
-  animation: float 6s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
   position: fixed;
   margin-top: 20vh;
 }
 
-/* create block element on top of the  */
+/* create block element on top for shading  */
 .banner::after {
   display: block;
   position: relative;
@@ -112,11 +115,4 @@ a:visited {
   height: 250px;
   width: 50%;
   content: "";
-}
-
-.text {
-  width: 60%;
-  height: 60vh;
-  margin: 0 auto;
-  text-align: justify;
 }
