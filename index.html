@@ -10,8 +10,8 @@
 
   <body>
     <header>
-      <video autoplay="true" muted="true" loop="true">
-        <source src="/bg-video.webm" type="video/webm" />
+      <video autoplay="true" muted="true" loop="true" poster="/pics/bg.webp">
+        <source src="/bg-vid.mp4" type="video/mp4" />
       </video>
 
       <div class="top">
@@ -23,7 +23,15 @@
           </li>
           <li>
             <ul class="categories">
-              <a href="/pages/gallery.html"><li>GALLERY</li></a>
+              <div class="dropdown">
+                <a href="#"><li>GALLERY</li></a>
+                <div class="dropdown-content">
+                  <a href="#">Creatures</a>
+                  <a href="#">Landscapes</a>
+                  <a href="#">Mages</a>
+                  <a href="#">Knights</a>
+                </div>
+              </div>
               <a href="/pages/artists.html"><li>ARTISTS</li></a>
               <a href="/pages/videos.html"><li>VIDEOS</li></a>
               <a href="/pages/guides.html"><li>GUIDES</li></a>
@@ -52,11 +60,11 @@
     <footer>
       <nav class="foot-nav">
         <ul>
-          <li class="footer-links">
-            <a href="/pages/impressum.html">IMPRINT</a>
-          </li>
+          <a href="/pages/impressum.html"
+            ><li class="footer-links">IMPRESS</li></a
+          >
           <li id="copyright">© Copyright by Steven Müller</li>
-          <li class="footer-links"><a href="/pages/team.html">TEAM</a></li>
+          <a href="/pages/team.html"><li class="footer-links">TEAM</li></a>
         </ul>
       </nav>
     </footer>
