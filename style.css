@@ -48,7 +48,7 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 120px;
+  min-width: 100%;
   z-index: 1;
   background-color: black;
 }
