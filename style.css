@@ -1,4 +1,7 @@
-@import url(/RubikDoodleShadow-Regular.ttf);
+@font-face {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  src: url(./RubikDoodleShadow-Regular.ttf);
+}
 
 /* Basic Layout */
 html,
